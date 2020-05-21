@@ -25,7 +25,7 @@ puppeteer cheerio : 크롤링 라이브러리
 
 ## 어려웠던 부분
 
-### 1. Docker를 통항 배포
+### 1. Docker를 통한 배포
 
 - Error: Failed to launch the browser process
   위에러는 Docker환경에서 chrom에 접근하지 못하여 생기는 문제였습니다. 따라서 Docker파일에서 추가적인 모듈다운로드 및 설정이 필요로 했습니다.
