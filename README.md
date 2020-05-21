@@ -29,7 +29,7 @@ puppeteer cheerio : 크롤링 라이브러리
 
 - Error: Failed to launch the browser process
   위에러는 Docker환경에서 chrom에 접근하지 못하여 생기는 문제였습니다. 따라서 Docker파일에서 추가적인 모듈다운로드 및 설정이 필요로 했습니다.
-  - ![스크린샷 2020-05-22 오전 3.12.14](images/스크린샷 2020-05-22 오전 3.12.14.png)
+  - ![1](images/1.png)
 
 ### 2. 크롤링한 page중 일부를 가져올때 HTML의 문법에서 벗어나면 읽지 못하는 현상
 
@@ -41,6 +41,18 @@ puppeteer cheerio : 크롤링 라이브러리
 
 ## 구현 확인
 
-![Image Pasted at 2020-5-22 03-16](images/Image Pasted at 2020-5-22 03-16.png)
+### 도커 컨테이너 
 
-![Image Pasted at 2020-5-22 03-15](images/Image Pasted at 2020-5-22 03-15.png)
+![2](images/2.png)
+
+### PostMan을 통한 API 확인
+
+![3](images/3.png)
+
+
+
+## 현재 Git 및 Jira 관리
+
+![7](images/7.png)
+
+![8](images/8.png)
